@@ -1,0 +1,897 @@
+body{
+    background-color: #F8F4E5;
+    background-size: contain;
+    max-width: 100%;
+    box-sizing: border-box
+}
+
+header {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 25px;
+    font-family: Enchant;
+    color: #0A3441;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+nav ul{
+    display: inline-block;
+    color: 5;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+a,li{
+    color:#0A3441;
+    text-decoration: none;
+}
+
+.Home{
+    color: #0A3441;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.MyPortfolio{
+    color:#0A3441;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.Services{
+    color: #0A3441;
+    text-decoration: none;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.Contact-Me{
+    color: #0A3441;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.Home:hover{
+    color: #C9333E;
+}
+
+.MyPortfolio:hover{
+    color: #C9333E
+}
+
+.Services:hover{
+   color: #C9333E;
+}
+
+.Contact-Me:hover{
+    color: #C9333E;
+}
+
+.Logo{
+    display: inline-block;
+    display: flex;
+    margin-top: 60px;
+    width: 90px;
+    height: 130px;
+}
+
+.The_Collective{
+    padding-top: 40px;
+    position: 50%;
+    left: 400px;
+    margin-left: -1355px;
+    color: #C9333E;
+    font-size: 50px;
+    font-family: Enchant;
+}
+
+.image-container {
+    position: relative;
+    width: 100%; 
+    height: 100%;
+}
+
+.background-image{
+    margin-top: 28px;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay-image{
+    position: absolute;
+    top: 100px; 
+    left: 150px;
+    width: 575px; 
+    height: 450px; 
+    opacity: 100;
+    opacity: 1; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.overlay-image-2{
+    position: absolute;
+    top: 95px; 
+    left: 800px;;
+    width: 575px; 
+    height: 455px; 
+    opacity: 100;
+    opacity: 1; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.Index {
+    position: absolute;
+    color: #0A3441;
+    font-size: 23px;
+    line-height: 1.5;
+    top: 230px; 
+    left: 830px;
+    text-align: justify;
+    width: 530px; 
+    height: auto;  
+    opacity: 1;  
+}
+
+.Index p {
+    margin: 0; 
+}
+
+.Yellow-Circle{
+    position: absolute;
+    top: -400px; 
+    left: 670px;
+    width: 175px; 
+    height: 175px; 
+    opacity: 100;
+}
+
+.background-white{
+    margin-top: -300px;
+    width: 100%;
+    height: 100%;
+}
+
+.About{
+    font-family: Enchant;
+    color: #F6EEE1;
+    font-size: 45px;
+    text-decoration: none;
+    position: absolute;
+    top: 650px; 
+    left: 710px;
+    width: 175px; 
+    height: 175px; 
+    opacity: 100;
+    align-content: center;
+}
+
+.Me{
+    font-family: Enchant;
+    color: #F6EEE1;
+    font-size: 45px;
+    text-decoration: none;
+    position: absolute;
+    top: 700px; 
+    left: 740px;
+    width: 175px; 
+    height: 175px; 
+    opacity: 100;
+    align-content: center;
+}
+
+.Shani-Visual{
+    position: absolute;
+    top: -615px; 
+    left: 265px;
+    width: 60px; 
+    height: 425px; 
+    opacity: 100;
+}
+
+.About-Paragraph{
+    left: 220px;
+    position: absolute;
+    font-family: Franklin Gothic Book;
+    color: #F8F4E5;
+    font-size: 25px;
+    text-align: justify;
+    width: 700px; 
+    opacity: 100;
+    top: 950px;
+    padding-left: 450px;
+}
+
+#My-Portfolio{
+    position: relative;
+    font-family: Enchant;
+    color: #C9333E;
+    font-size: 60px;
+    position: absolute;
+    margin-top: -200px;
+    margin-bottom: 300px; 
+    left: 150px;
+    text-decoration: none;
+}
+
+.White-Circle{
+    position: absolute;
+    top: 50px; 
+    left: 50px;
+    width: 150px; 
+    height: 150px; 
+    opacity: 100;
+}
+
+.card-container-1 { 
+    position: relative;
+    display: flex; 
+    gap: 30px; 
+    justify-content: center; 
+    padding-left: -0px;
+    padding-top: 250px;
+}
+
+.card-container-2 { 
+    position: relative;
+    display: flex; 
+    gap: 30px; 
+    justify-content: center; 
+    padding-left: -0px;
+    margin-top: 20px;
+}
+
+.card-container-3 { 
+    position: relative;
+    display: flex; 
+    gap: 30px; 
+    justify-content: center; 
+    padding-left: -0px;
+    margin-top: 20px;
+}
+
+.card-container-4 { 
+    position: relative;
+    display: flex; 
+    gap: 30px; 
+    justify-content: center; 
+    padding-left: -0px;
+    margin-top: 0px;
+}
+
+.card {
+    position: relative;
+    font-size: 18px;
+    background-color: #0A3441;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 330px;
+    height: 900px;
+    text-align:center;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.card h1 {
+   color: #EDDC9E;
+   font-family: Enchant;
+   font-size: 30px;
+}
+
+.card a {
+    font-size: 23px;
+    color: #EDDC9E;
+    margin-top: 150px;
+    border-radius: 15px;
+    width: 60px;
+    text-align: center;
+}
+
+.card a:hover {
+    color: #C9333E;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    margin: 20px;
+    left: 230px;
+}
+
+.card p {
+    color: #F8F4E5;
+    font-family: Franklin Gothic Book;
+    text-align: justify;
+    width: 325px;
+    padding-left: -5px;
+    line-height: 1.5;
+}
+
+.Peach-Vector{
+    position: relative;
+    top:10px; 
+    left: 80px;
+    width: 150px; 
+    height: 150px; 
+    opacity: 100
+}
+
+#My-Services{
+    position: relative;
+    font-family: Enchant;
+    color: #0A3441;
+    font-size: 60px;
+    position: absolute;
+    margin-top: -140px;
+    margin-bottom: 300px; 
+    left: 150px;
+    text-decoration: none;
+}
+
+.navbar {
+    position: absolutes;
+    color: #0A3441;
+    width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 280px;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    font-family: Enchant;
+    font-size: 25px;
+    color: #C9333E;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: #C9333E;
+    color: #EDDC9E;
+}
+
+
+footer {
+    background-color: #0A3441;
+    color: #F8F4E5;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    left: 10px;
+    margin-bottom: -10px;
+}
+
+.footer-content {
+    color: #AA4B2D;
+    display: flex;
+}
+
+.social-links img {
+    width: 32px;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.social-links p {
+    width: 32px;
+    margin: 0 5px;
+    margin-left: 300px;
+    padding: 0;
+}
+
+.sitemap a {
+    font-family: Enchant;
+    color: #EDDC9E;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    margin-left: -1000px;
+    margin-top: 30px;
+    align-content: center;
+}
+
+.sitemap a:hover {
+    color: #04716C;
+    display: flex;
+}
+
+.contact-info {
+    flex: 1;
+    margin-top: 30px;
+    margin-left: 475px;
+}
+
+.contact-info h3 {
+    font-family: Enchant;
+    color: #EDDC9E;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.contact-info p {
+    color: #EDDC9E;
+    font-family: Franklin Gothic Book;
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.Email{
+    color: #EDDC9E;
+    font-size: 20px;
+}
+
+.Phone{
+    color: #EDDC9E;
+    font-size: 20px; 
+}
+
+.Message{
+    color: #EDDC9E;
+    font-size: 20px;
+}
+
+.Email:hover{
+    color: #04716C;
+}
+
+.Phone:hover{
+    color: #04716C; 
+}
+
+.Message:hover{
+    color: #04716C;
+}
+
+.location-map h3{
+    font-family: Enchant;
+    color: #EDDC9E;
+    margin-bottom: 10px;
+    font-size: 24px;
+    margin-top: 50px;
+    padding-left: -400px;
+}
+
+.Location{
+    flex: 1;
+    margin-top: 90px;
+    margin-left: 935px;  
+    margin: 5px 0;
+}
+
+.footer-bottom p {
+    margin-top: 250px;
+    color: #EDDC9E;
+    font-size: 15px;
+    margin-left: -50px;
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1440px) and (min-width:1025px){
+.Contact-Me{
+    color: #0A3441;
+    text-decoration: none;
+    margin-right: 100px;
+}
+   
+.The_Collective{
+    margin-left: -1050px;
+}
+
+.overlay-image{
+    left: 110px;
+    width: 550px; 
+    height: 435px; 
+}
+
+.overlay-image-2{
+    left: 750px;
+    width: 575px; 
+    height: 435px; 
+}
+
+.Index {
+    top: 230px; 
+    left: 780px;
+}
+
+.Yellow-Circle{
+    top: -365px; 
+    left: 625px;
+}
+
+.background-white{
+    margin-top: -300px;
+    width: 100%;
+    height: 100%;
+}
+
+.About{
+    top: 640px; 
+    left: 665px;
+}
+
+.Me{
+    top: 690px; 
+    left: 690px;
+}
+
+.Shani-Visual{
+    top: -560px; 
+}
+
+.About-Paragraph{
+    left: 220px;
+    position: absolute;
+    font-family: Franklin Gothic Book;
+    color: #F8F4E5;
+    font-size: 25px;
+    text-align: justify;
+    width: 700px; 
+    opacity: 100;
+    top: 900px;
+    padding-left: 450px;
+}
+
+.sitemap a {
+    margin-left: -900px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) { 
+
+.Logo{
+        display: inline-block;
+        display: flex;
+        margin-top: 50px;
+        width: 70px;
+        height: 110px;
+    }
+    
+    .The_Collective{
+        left: 400px;
+        margin-left: -425px;
+        font-size: 45px;
+    }
+ 
+    nav li{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .overlay-image{
+        left: 75px;
+        width: 400px; 
+        height: 300px; 
+    }
+
+    .overlay-image-2{
+        top: 100px; 
+        left: 550px;
+        width: 400px; 
+        height: 300px; 
+
+    }
+    
+    .Index {
+        font-size: 16px;
+        line-height: 1.5;
+        top: 200px; 
+        left: 575px;
+        width: 350px; 
+    }
+    
+    .Yellow-Circle{
+        top: -225px; 
+        left: 450px;
+        width: 125px; 
+        height: 125px; 
+    }
+    
+    .background-white{
+        margin-top: -150px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .About{
+        font-size: 35px;
+        top: 490px; 
+        left: 475px;
+        width: 175px; 
+        height: 175px; 
+    }
+    
+    .Me{
+        font-size: 35px;
+        top: 540px; 
+        left: 500px;
+        width: 175px; 
+        height: 175px; 
+    }
+    
+    .Shani-Visual{
+        top: -420px; 
+        left: 150px;
+        width: 45px; 
+        height: 335px; 
+        opacity: 100;
+    }
+    
+    .About-Paragraph{
+        left: 220px;
+        font-size: 17px;
+        width: 650px; 
+        top: 750px;
+        padding-left: 50px;
+    }
+    
+    #My-Portfolio{
+        font-size: 50px;
+        margin-top: -175px;
+        margin-bottom: 300px; 
+        left: 125px;
+    }
+    
+    .White-Circle{
+        top: 25px; 
+        left: 50px;
+        width: 125px; 
+        height: 125px;  
+        opacity: 100;
+    }
+    
+    .card-container-1 { 
+        gap: 10px; 
+        padding-left: -0px;
+        padding-top: 175px;
+    }
+    
+    .card-container-2 { 
+        gap: 10px; 
+        padding-left: -0px;
+        margin-top: 20px;
+    }
+    
+    .card-container-3 { 
+        gap: 10px; 
+        padding-left: -0px;
+        margin-top: 20px;
+    }
+    
+    .card-container-4 { 
+        gap: 10px; 
+        padding-left: -0px;
+        margin-top: 0px;
+    }
+    
+    .card {
+        font-size: 16px;
+        padding: 10px;
+        width: 260px;
+        height: 850px;
+        margin: 10px;
+        margin-bottom: 40px;
+    }
+    
+    .card h1 {
+       font-size: 28px;
+    }
+    
+    .card a {
+        font-size: 23px;
+        margin-top: 175px;
+        border-radius: 15px;
+        width: 60px;
+    }
+    
+    .card p {
+        width: 235px;
+        padding-left: 10px;
+        line-height: 1.5;
+    }
+    
+    .Peach-Vector{
+        top: -10px; 
+        left: 80px;
+        width: 125px; 
+        height: 125px; 
+    }
+    
+    #My-Services{
+        font-size: 50px;
+    }
+
+    .navbar ul {
+        padding-top: 10px;
+        padding-left: 50px;
+    }
+    
+    
+    .navbar a {
+        font-size: 25px;
+        padding: 5px 5px;
+    }
+
+    footer {
+        font-size: 15px;
+        margin-top: 50px;
+        width: 100%;
+        height: 300px;
+        left: 10px;
+        margin-bottom: -10px;
+    }
+
+    .social-links img {
+        width: 32px;
+        margin: 10px 0;
+        padding: 20px;
+    }
+    
+    .social-links p {
+        width: 32px;
+        margin: 0 5px;
+        margin-left: 300px;
+        padding: 0;
+    }
+    
+    .sitemap a {
+        font-size: 20px;
+        margin-left: -650px;
+        margin-top: 30px;
+    }
+    
+    .contact-info {
+        margin-top: 30px;
+        margin-left: 385px;
+    }
+    
+    .contact-info h3 {
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+    
+    .contact-info p {
+        margin: 15px 0;
+        font-size: 18px;
+    }
+    
+    .Email{
+        font-size: 20px;
+    }
+    
+    .Phone{
+        font-size: 20px; 
+    }
+    
+    .Message{
+        font-size: 20px;
+    }
+    
+    .location-map h3{
+        margin-bottom: 10px;
+        font-size: 24px;
+        margin-top: 50px;
+        padding-left: -400px;
+    }
+    
+    .Location{
+        flex: 1;
+        margin-top: 90px;
+        margin-left: 1000px;  
+        margin: 5px 0;
+    }
+    
+    .footer-bottom p {
+        margin-top: 250px;
+        font-size: 13px;
+        margin-left: -200px;
+        margin-right: 50px;
+    }
+}
+
+
+@media (max-width: 768px) { 
+
+.overlay-image-2{
+    top: 95px; 
+    left: 760px;
+    width: 575px; 
+    height: 455px; 
+}
+
+.Index {
+    font-size: 23px;
+    top: 230px; 
+    left: 830px;
+    width: 530px;   
+}
+
+.About{
+    font-size: 33px;
+    top: 470px; 
+    left: 475px;
+}
+
+.Me{
+    font-size: 33px;
+    top: 520px; 
+    left: 500px;
+}
+
+
+.Shani-Visual{
+    top: -400px; 
+    left: 150px;
+    width: 45px; 
+    height: 335px; 
+    opacity: 100;
+}
+
+.About-Paragraph{
+    left: 220px;
+    font-size: 17px;
+    width: 650px; 
+    top: 400px;
+    padding-left: 50px;
+}
+
+
+}
